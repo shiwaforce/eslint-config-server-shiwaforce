@@ -1,0 +1,40 @@
+{
+  "author": {
+    "name": "ShiwaForce",
+    "email": "hello@shiwaforce.com"
+  },
+  "bugs": {
+    "url": "https://github.com/shiwaforce/eslint-config-server-shiwaforce/issues"
+  },
+  "dependencies": {
+    "extend": "^3.0.0"
+  },
+  "description": "Shareable server side config for eslint by ShiwaForce",
+  "devDependencies": {
+    "eslint": "^3.13.1"
+  },
+  "homepage": "https://github.com/shiwaforce/eslint-config-server-shiwaforce#readme",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-server",
+    "eslint-config-server-shiwaforce"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "shiwaforce",
+      "email": "operations@shiwaforce.com"
+    }
+  ],
+  "name": "eslint-config-server-shiwaforce",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiwaforce/eslint-config-server-shiwaforce.git"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js rules/*.js"
+  },
+  "version": "1.0.0"
+}
