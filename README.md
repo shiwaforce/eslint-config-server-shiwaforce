@@ -34,8 +34,8 @@ Add the `"rules"` key to your config then add your additional/override rules. Fo
 {
   "extends": "eslint-config-server-shiwaforce",
   "rules": {
-    "indent": [2, "space"],//indent with 2 spaces
-    "eol-last":[0]//non error
+    "indent": [2, "space"],
+    "eol-last":[0]
   }
 }
 ```
