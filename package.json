@@ -36,5 +36,5 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint index.js rules/*.js"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
