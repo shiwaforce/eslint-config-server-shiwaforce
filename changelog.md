@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3 / 2017.02.28.
+- improve keywords
+
 ## 1.0.2 / 2017.02.28.
 - improve readme
 
