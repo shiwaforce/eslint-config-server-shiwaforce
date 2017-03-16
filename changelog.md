@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 / 2017.03.16.
+- add mocha framework by default
+- temporarily remove object-curly-spacing rule because visual studio code bug
+
 ## 1.0.3 / 2017.02.28.
 - improve keywords
 
