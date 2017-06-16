@@ -11,7 +11,7 @@
   },
   "description": "Shareable server side config for eslint by ShiwaForce",
   "devDependencies": {
-    "eslint": "^3.13.1"
+    "eslint": "^4.0.0"
   },
   "homepage": "https://github.com/shiwaforce/eslint-config-server-shiwaforce#readme",
   "keywords": [
@@ -40,5 +40,5 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint index.js rules/*.js"
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
