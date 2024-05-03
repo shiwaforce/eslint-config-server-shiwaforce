@@ -14,14 +14,15 @@ npm install eslint eslint-config-server-shiwaforce --save-dev
 
 ## Usage
 
-If you've installed eslint-config-server-shiwaforce locally within your project create the .eslintrc file at the root of your node project.
-You can create this file (.eslintrc) at a different location but in this case you need to reference it manually. (see details on the [eslint page](http://eslint.org/docs/user-guide/command-line-interface))
+If you've installed eslint-config-server-shiwaforce locally within your project create the eslint.config.js file at the root of your node project.
+(see details on the [eslint page](http://eslint.org/docs/user-guide/command-line-interface))
 
-```json
-{
-	"extends": "eslint-config-server-shiwaforce"
-}
-
+```js
+import eslintConfigServerShiwaforce from 'eslint-config-server-shiwaforce';
+export default [
+	eslintConfigServerShiwaforce,
+	...
+];
 ```
 Run the linter by executing the command below:
 
@@ -43,14 +44,17 @@ This command does NOT walk the entire dependency tree based on `require`-s or `i
 
 Add the `"rules"` key to your config then add your additional/override rules. For example, if you want to change the `"indent"` and `"eol-last"` rules from default to your own add this:
 
-```json
-{
-	"extends": "eslint-config-server-shiwaforce",
-	"rules": {
-		"indent": [2, "space"],
-		"eol-last":[0]
+```js
+import eslintConfigServerShiwaforce from 'eslint-config-server-shiwaforce';
+export default [
+	eslintConfigServerShiwaforce,
+	{
+		rules: {
+			'indent': [2, 'space'],
+			'eol-last': [0]
+		}
 	}
-}
+];
 ```
 
 ## Additional information about rules
