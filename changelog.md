@@ -1,4 +1,6 @@
 # Changelog
+## 2.0.0 / 2024.05.03.
+- upgrade to eslint 9 flat config
 
 ## 1.0.6 / 2017.06.16.
 - upgrade to new eslint version
